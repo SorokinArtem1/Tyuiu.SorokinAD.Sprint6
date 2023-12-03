@@ -43,7 +43,7 @@ namespace Tyuiu.SorokinAD.Sprint6.Task0.V17
             DataSerivce ds = new DataSerivce();
             try
             {
-                textBoxOutput.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxInput.Text)));
+                textBoxOutput_SAD.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxInput_SAD.Text)));
 
             }
             catch
